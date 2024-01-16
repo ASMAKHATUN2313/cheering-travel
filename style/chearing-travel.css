@@ -160,7 +160,7 @@ main {
     border: 2px solid black;
     margin: 0px auto;
 }
-
+/* our popular tur style  */
 .popular-tour {
     max-width: 100%;
     display: flex;
@@ -224,32 +224,77 @@ main {
 /* destination section start */
 .destination {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
+.destination h3{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.destination p{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+padding-top: 30px;
+padding-left:150px ;
+padding-right:150px ;
 
-.grid {
+}
+
+
+.gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px; /* Adjust the gap according to your design */
+    gap: 10px;
+    padding: 10px;
   }
-  
-  .col-span-1 {
-    grid-column: span 1;
+
+  .item {
+  width: 100%;
+    overflow: hidden;
+    height: 300px; 
   }
-  
-  .col-span-2 {
+
+  .item img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    display: block;
+  }
+
+  .row-1 .item:nth-child(1) {
     grid-column: span 2;
-  } 
-  .col-span-3 {
+  }
+  .row-1 .item:nth-child(2) {
+    grid-column: span 2;
+  }
+
+  .row-2 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .row-2 .item:nth-child(2) {
+    grid-column: span 2;
+  }
+
+  .row-3 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .row-3 .item:nth-child(2) {
     grid-column: span 3;
-  } 
+  }
 
 
 
 /* why choose us section  */
 .why-choose-us-header{
     text-align: center;
-    padding-bottom:50px ;
+    padding-bottom:50px;
+    margin-top: 50px;
 }
 .why-choose-us-header h2{
     color: #131318;
@@ -322,9 +367,110 @@ padding-right:200px ;
     line-height: 26px;
     padding-top: 20px;
 }
+/* deal and discount style  */
+.deal-and-discount{
+    text-align: center;
+    position: relative;
+    
+}
+.deal-and-discount img{
+    width: 100%;
+}
+.deal-and-discount-header h3{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.deal-and-discount-header p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding-left:150px ;
+padding-right:150px ;
+padding-bottom: 40px;
+}
+.discount-card-header{
+    display: flex;
+    gap: 20px;
+}
+ .discount-card {  
+ border-radius: 16px;
+border: 2px solid #FFF;
+ background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 250px;
+position: absolute;
+top:362px;
+left: 588px;
+    
+}
+.discount-card-2{  
+    border-radius: 16px;
+   border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+   backdrop-filter: blur(2.5px);
+   width: 579px;
+   height: 250px;
+   position: absolute;
+   top:890px;
+   left: 29px;
+       
+   }
+ .discount-card-3{  
+    border-radius: 16px;
+   border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+   backdrop-filter: blur(2.5px);
+   width: 579px;
+   height: 250px;
+   position: absolute;
+   bottom:51px;
+   left: 570px;
+       
+   }
+.discount-button{
+    margin-top: 20px;
+    color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+border-radius: 8px;
+background: #FF5400;
+width: 150px;
+height: 52px;
+border-style: none;
+}
+.discount-card i{
+    color:#FF5400;
+}
+.discount-card-2 i{
+    color:#FF5400;
+}
+.discount-card-3 i{
+    color: #FF5400;
+}
+.discount-card  p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+.discount-card h3{
+    color: #131318;
+  font-size: 24px;
+font-weight: 800;
+padding-bottom: 20px;
+padding-top:20px;
+}
+
 
 /* A simple perfect place  style*/
 .simple-perfect-place {
+    margin-top: 0px;
     width: 100%;
     display: flex;
     justify-content: space-between;
