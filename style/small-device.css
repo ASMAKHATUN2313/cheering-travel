@@ -1,0 +1,135 @@
+@media screen and (max-width:600px) {
+    header {
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    .nav,
+    .nav-menu,
+    .form {
+        flex-direction: column;
+
+    }
+
+    .nav-title {
+        font-size: 16px;
+    }
+
+    .nav-menu {
+        font-size:0px;
+        gap: 5px;
+    }
+
+    .nav {
+        margin-bottom: 125px;
+        gap: 10px;
+    }
+
+    .banner {
+        max-width: 100%;
+        height: 500px;
+        background-size: cover;
+        /* object-fit: cover; */
+        background-attachment: fixed;
+        background-position: center;
+
+
+    }
+
+    .banner .banner-title {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .banner .banner-description {
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 15px;
+        /* margin: -35px; */
+
+
+    }
+    .form{
+        gap: 16px;
+    height: 170px;
+    width: 255px;
+    margin:50px 100px; 
+    padding: 0;
+    align-items: center;
+
+    }
+    .form button{
+        padding: 10px;
+    }
+    .form .btn-white{
+        width: 255px;
+        align-items: center;
+        padding-left: 0;
+
+    }
+    .form .btn-orange{
+        width: 255px;
+        align-items: center;
+        padding-left: 0;
+    }
+    /* our popular tour section style */
+    
+main{
+    margin:0px;
+}
+.popular-tour{
+    flex-direction: column;
+    margin: 0;
+    gap: 40px;
+}
+.popular-tour .text-part{
+   width: 80%;
+   margin: 50px auto;
+
+}
+.popular-tour .img-part{
+    width: 100%;
+    margin: 0px;
+
+}
+
+.popular-tour-title , .destination-title{
+font-size: 20px;
+margin-bottom: 20px;
+}
+.description{
+font-size: 16px;
+
+}
+.news-letter{
+    flex-direction: column;
+}
+.news-letter-text {
+    width: 100%;
+    margin: 0px;
+}
+.news-letter-img{
+    width: 80%;
+}
+.discount{
+    width: 214.023px;
+height: 79.268px;
+font-size: 21.138px;
+position:absolute;
+top:49% ;
+left:41%;
+
+}
+.discount-p{
+    font-size: 15.854px;
+}
+/* footer stye  */
+.footer-container {
+    margin: 20px;
+}
+.footer-description{
+    padding: 30px 40px;
+}
+}
