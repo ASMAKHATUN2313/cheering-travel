@@ -5,25 +5,28 @@
 
     }
 
-    .nav,
-    .nav-menu,
+
     .form {
         flex-direction: column;
 
     }
 
     .nav-title {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .nav-menu {
-        font-size:0px;
-        gap: 5px;
+        display: none;
+    }
+
+    .hum-burger {
+        display: block;
     }
 
     .nav {
         margin-bottom: 125px;
-        gap: 10px;
+        /* gap: 10px; */
+        padding: 0 10px;
     }
 
     .banner {
@@ -51,107 +54,168 @@
 
 
     }
-    .form{
+
+    .form {
         gap: 16px;
-    height: 170px;
-    width: 255px;
-    margin:50px 100px; 
-    padding: 0;
-    align-items: center;
+        height: 170px;
+        width: 255px;
+        margin: 50px 100px;
+        padding: 0;
+        align-items: center;
 
     }
-    .form button{
+
+    .form button {
         padding: 10px;
     }
-    .form .btn-white{
+
+    .form .btn-white {
         width: 255px;
         align-items: center;
         padding-left: 0;
 
     }
-    .form .btn-orange{
+
+    .form .btn-orange {
         width: 255px;
         align-items: center;
         padding-left: 0;
     }
+
+    /* why choose us section  */
+    .why-choose-us-header h2 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .why-choose-us-header p {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-row1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        width: 335px;
+        height: 289px;
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+
+    .card-1  {
+        margin-left: 0px;
+        padding-top: 40px;
+    }
+    .card-2{
+        margin-right: 0px;
+        padding-top: 40px;
+    }
+    .card-3 {
+        margin-left:0px ;
+        margin-bottom:50px ;
+    }
+
+
     /* our popular tour section style */
-    
-main{
-    margin:0px;
-}
-.popular-tour{
-    flex-direction: column;
-    margin: 0;
-    gap: 40px;
-}
-.popular-tour .text-part{
-   width: 80%;
-   margin: 50px auto;
 
-}
-.popular-tour .img-part{
-    width: 100%;
-    margin: 0px;
+    main {
+        margin: 0px;
+    }
 
-}
+    .popular-tour {
+        flex-direction: column;
+        margin: 0;
+        gap: 40px;
+    }
 
-.popular-tour-title , .destination-title{
-font-size: 20px;
-margin-bottom: 20px;
-}
-.description{
-font-size: 16px;
+    .popular-tour .text-part {
+        width: 80%;
+        margin: 50px auto;
 
-}
-.simple-perfect-place{
-    flex-direction: column;
-    margin: 0px;
-    gap: 30px;
-}
-.simple-perfect-place-text{
-    width: 80%;
-    font-size:20px;
-}
-.simple-perfect-place-title{
-    font-size:20px;
-}
-.simple-perfect-place-description{
-    font-size:16px;
-    margin:auto;
-    padding-bottom:20px ;
-}
+    }
 
-.simple-perfect-place-img{
-    width: 100%;
-}
-/* news-letter section style */
-.news-letter{
-    flex-direction: column;
-}
-.news-letter-text {
-    width: 70%;
-    margin: 0px auto;
-}
-.news-letter-img{
-    width: 80%;
-}
-.discount{
-    width: 214.023px;
-height: 79.268px;
-font-size: 21.138px;
-position:absolute;
-top:49% ;
-left:41%;
+    .popular-tour .img-part {
+        width: 100%;
+        margin: 0px;
 
-}
-.discount-p{
-    font-size: 15.854px;
-}
-/* footer stye  */
-.footer-container {
-    margin: 20px;
-}
-.footer-description{
-    padding: 30px 40px;
-}
+    }
+
+    .popular-tour-title,
+    .destination-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+
+    }
+
+    .simple-perfect-place {
+        flex-direction: column;
+        margin: 0px;
+        gap: 30px;
+    }
+
+    .simple-perfect-place-text {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .simple-perfect-place-title {
+        font-size: 20px;
+    }
+
+    .simple-perfect-place-description {
+        font-size: 16px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .simple-perfect-place-img {
+        width: 100%;
+    }
+
+    /* news-letter section style */
+    .news-letter {
+        flex-direction: column;
+    }
+
+    /* .news-letter-text {
+    width: 30%;
+    margin: 0px auto; 
+} */
+    .news-letter-img {
+        width: 80%;
+    }
+
+    .discount {
+        width: 185px;
+        height: 79.268px;
+        font-size: 18px;
+        position: absolute;
+        top: 47%;
+        left: 30%;
+
+    }
+
+    .discount-p {
+        font-size: 15.854px;
+    }
+
+    /* footer stye  */
+    .footer-container {
+        margin: 20px;
+    }
+
+    .footer-description {
+        padding: 30px 40px;
+    }
 }
