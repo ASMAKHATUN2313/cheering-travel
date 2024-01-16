@@ -155,6 +155,22 @@
        left: 25px;
            
        }
+       .discount-card h3{
+      font-size: 20px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    }
+    .discount-card-2 h3{
+        font-size: 20px;
+      padding-bottom:5px;
+      padding-top:5px;
+    
+    }
+    .discount-card-3 h3{
+        font-size: 20px;
+      padding-bottom: 5px;
+      padding-top:5px;
+    }
     /* our popular tour section style */
 
     main {

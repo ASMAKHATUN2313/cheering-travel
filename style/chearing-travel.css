@@ -460,12 +460,37 @@ border-style: none;
 font-size: 16px;
 font-weight: 400;
 }
+.discount-card-2 p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+.discount-card-3 p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
 .discount-card h3{
     color: #131318;
   font-size: 24px;
 font-weight: 800;
-padding-bottom: 20px;
-padding-top:20px;
+padding-bottom: 10px;
+padding-top:10px;
+}
+.discount-card-2 h3{
+    color: #131318;
+    font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 10px;
+  padding-top:10px;
+
+}
+.discount-card-3 h3{
+    color: #131318;
+    font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 10px;
+  padding-top:10px;
 }
 
 
