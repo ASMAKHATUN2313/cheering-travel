@@ -103,12 +103,34 @@ margin-bottom: 20px;
 font-size: 16px;
 
 }
+.simple-perfect-place{
+    flex-direction: column;
+    margin: 0px;
+    gap: 30px;
+}
+.simple-perfect-place-text{
+    width: 80%;
+    font-size:20px;
+}
+.simple-perfect-place-title{
+    font-size:20px;
+}
+.simple-perfect-place-description{
+    font-size:16px;
+    margin:auto;
+    padding-bottom:20px ;
+}
+
+.simple-perfect-place-img{
+    width: 100%;
+}
+/* news-letter section style */
 .news-letter{
     flex-direction: column;
 }
 .news-letter-text {
-    width: 100%;
-    margin: 0px;
+    width: 70%;
+    margin: 0px auto;
 }
 .news-letter-img{
     width: 80%;
